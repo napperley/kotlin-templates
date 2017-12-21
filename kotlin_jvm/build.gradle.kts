@@ -16,7 +16,7 @@ application {
 }
 
 dependencies {
-	val kotlinVer = "1.2.10"
+    val kotlinVer = "1.2.10"
 
     compile(kotlin(module = "stdlib-jre8", version = kotlinVer))
 }
