@@ -5,3 +5,5 @@ jooq_h2/src/main/resources/db/
 jooq_h2/build/
 jooq_h2/.gradle/
 .gradle/
+ktor/.gradle/
+ktor/.idea/
