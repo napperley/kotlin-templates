@@ -26,6 +26,7 @@ dependencies {
     implementation(kotlin(module = "stdlib-jdk8", version = kotlinVer))
     implementation("io.ktor:ktor-server-netty:$ktorVer")
     implementation("org.slf4j:slf4j-log4j12:$log4jVer")
+    implementation("io.ktor:ktor-html-builder:$ktorVer")
 }
 
 val run by tasks.getting {
