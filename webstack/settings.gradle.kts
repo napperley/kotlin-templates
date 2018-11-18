@@ -1,2 +1,2 @@
 rootProject.name = "webstack"
-include(":server")
+include(":server", ":client")

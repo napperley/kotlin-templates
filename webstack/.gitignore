@@ -20,9 +20,6 @@ out/
 # Editor-based Rest Client
 .idea/httpRequests
 ### Kotlin template
-# Compiled class file
-*.class
-
 # Log file
 *.log
 
@@ -59,3 +56,7 @@ gradle-app.setting
 # Additional files/dirs to ignore.
 .idea/
 *.log.*
+server/src/main/resources/static/
+server/build/
+client/build/
+client/web/
