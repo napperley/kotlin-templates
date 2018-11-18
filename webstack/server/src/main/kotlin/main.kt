@@ -51,10 +51,11 @@ fun helloRoute(routing: Routing) = routing.get("/hello") {
 fun baseRoute(routing: Routing) = routing.get("/") {
     val scriptSources = listOf(
         "$STATIC_DIR/kotlin.js",
+        "$STATIC_DIR/kotlinx-html-js.js",
         "$STATIC_DIR/webstack-client.js"
     )
     call.respondHtml {
-        head { title("Repo Stats") }
+        head { title("Webstack") }
         body {
             div { id = "main-layout" }
             scriptSources.forEach { src -> script(block = createJsScript(src)) }

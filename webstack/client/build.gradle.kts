@@ -22,7 +22,9 @@ apply {
 }
 
 dependencies {
+    val kotlinxHtmlVer = "0.6.10"
     "compile"(kotlin(module = "stdlib-js", version = kotlinVer))
+    "compile"("org.jetbrains.kotlinx:kotlinx-html-js:$kotlinxHtmlVer")
 }
 
 val webDir = "${projectDir.absolutePath}/web"
